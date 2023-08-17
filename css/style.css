@@ -1,10 +1,10 @@
 body {
     background: var(--tg-theme-bg-color);
 }
-.nav {
+.container {
+    max-width: 390px;
     background: green;
-    wight: 120px;
 }
 .logo {
-    margin: 50px;
+    margin-top: 50px;
 }
