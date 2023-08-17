@@ -3,5 +3,8 @@ body {
 }
 .nav {
     background: green;
-    max-wight: 120px;
+    wight: 120px;
+}
+img {
+    margin: 50px;
 }
