@@ -8,7 +8,7 @@ body {
 }
 
 
-@media (min-width: 1290px) {
+@media (min-width: 1170px) {
     body {
         color: red;
     }
@@ -16,7 +16,7 @@ body {
         background: green;
     }
     .logo {
-        width: 1290px;
-        height: 2796px
+        width: 1170px;
+        height: 2532px
     }
 }
