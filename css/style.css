@@ -2,13 +2,11 @@ body {
     background: var(--tg-theme-bg-color);
 }
 .container {
-    max-width: 385px;
+    max-width: 380px;
     background: green;
     max-height: 780px;
 }
-.logo {
-    margin: 50px 125px;
-}
+
 
 @media (min-width: 500px) {
     body {
