@@ -1,22 +1,18 @@
 body {
-    background: var(--tg-theme-bg-color);
+    background: white;
 }
+
 .container {
-    max-width: 380px;
-    background: green;
-    max-height: 780px;
+    min-width: 388px;
+    color: gray;
 }
 
+.banner {
+    margin: 67px 10px 10px;
+    width: 360px;
+    height: 366px;
+}
 
-@media (min-width: 900px) {
-    body {
-        color: red;
-    }
-    .container {
-        background: green;
-    }
-    .logo {
-        width: 900px;
-        height: 2532px
-    }
+.w-block {
+    margin: -28px 0 0 0;
 }
