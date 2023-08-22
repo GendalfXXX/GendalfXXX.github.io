@@ -64,3 +64,21 @@
     background: #fff;
     color: #2DA6FF;
 }
+
+@media screen and (min-width: 700px) {
+    #banner {
+        margin: 0 170px 0 170px;
+    }
+    .con {
+        max-width: 700px;
+        max-height: 650px;
+        border: 1px solid;
+    }
+    #w-block {
+        top: -65px;
+        margin: 0 120px 0 120px;
+        position: relative;
+        width: 460px;
+        border: 1px solid;
+    }
+}
