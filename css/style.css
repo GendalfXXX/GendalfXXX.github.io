@@ -8,8 +8,15 @@ body {
 }
 
 
-@media (min-width: 500px) {
+@media (min-width: 1290px) {
     body {
         color: red;
+    }
+    .container {
+        background: green;
+    }
+    .logo {
+        width: 1290px;
+        height: 2796px
     }
 }
