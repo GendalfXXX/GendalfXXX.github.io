@@ -49,6 +49,8 @@ body {
     background: #2DA6FF;
     border-radius: 10px;
     border: 0.5px solid white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
 }
 
 #sing-in-btn:hover {
@@ -67,6 +69,8 @@ body {
     color: #2DA6FF;
     border-radius: 10px;
     border: 0.5px solid #2DA6FF;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
 }
 
 #sing-up-btn:hover {
