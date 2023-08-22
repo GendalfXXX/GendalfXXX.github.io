@@ -4,7 +4,12 @@ body {
 .container {
     max-width: 390px;
     background: green;
+    max-height: 780px;
 }
 .logo {
     margin: 50px 125px;
+}
+
+h1 {
+    padding: 500px;
 }
