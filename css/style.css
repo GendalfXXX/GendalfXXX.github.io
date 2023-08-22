@@ -4,8 +4,10 @@
 }
 
 body {
-    margin-left: 1px;
+    align-content: center;
+    align-items: center;
     height: 611px;
+    display: flex;
 }
 
 .container {
@@ -76,4 +78,15 @@ body {
 #sing-up-btn:hover {
     background: #2DA6FF;
     color: #fff;
+}
+
+@media (min-width: 600px) {
+    body {
+        background: gray;
+    }
+    .container {
+        max-width: 700px;
+        max-height: 1000px;
+        background: red;
+    }
 }
