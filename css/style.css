@@ -47,7 +47,8 @@
 
 #sing-in-btn:hover {
     background: #fff;
-    border: 0.5px solid black;
+    color: #2DA6FF;
+    border: 0.5px solid #2DA6FF;
 }
 
 #sing-up-btn {
