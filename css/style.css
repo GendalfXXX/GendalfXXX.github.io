@@ -2,7 +2,7 @@ body {
     background: var(--tg-theme-bg-color);
 }
 .container {
-    max-width: 390px;
+    max-width: 385px;
     background: green;
     max-height: 780px;
 }
