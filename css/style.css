@@ -9,3 +9,9 @@ body {
 .logo {
     margin: 50px 125px;
 }
+
+@media (min-width: 500px) {
+    body {
+        color: red;
+    }
+}
