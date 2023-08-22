@@ -3,8 +3,13 @@
     padding: 0;
 }
 
+body {
+    margin-left: 5px;
+}
+
 .container {
     max-width: 370px;
+    max-height: 611px;
 }
 
 .banner {
