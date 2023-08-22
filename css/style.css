@@ -1,92 +1,67 @@
-* {
-    margin: 0;
-    padding: 0;
+.con {
+    max-width: 376px;
+    max-height: 650px;
+    border: 1px solid;
 }
 
-body {
-    align-content: center;
-    align-items: center;
-    height: 611px;
-    display: flex;
+#banner {
+    margin: 0 10px 0 10px;
 }
 
-.container {
-    max-width: 370px;
-    max-height: 611px;
-}
-
-.banner {
-    margin: 0 5px;
-    width: 360px;
-    height: 365px;
-    position: static;
-}
-
-.w-block {
+#w-block {
+    top: -65px;
     position: relative;
-    top: -85px;
-    max-width: 370px;
-    height: 327px;
+    width: 374px;
 }
 
-.logo {
-    margin: 0 146px;
+#logo {
     position: relative;
-    top: -370px;
+    padding: 0 149px;
+    top: -368px;
 }
 
-.text {
+#text-logo {
     position: relative;
-    top: -364px;
-    margin: 0 89px;
+    padding: 0 89px;
+    top: -354px;
 }
 
-#sing-in-btn {
+.btn {
+    min-width: 362px;
+    min-height: 50px;
+    margin: 0 7px;
+}
+
+#btn1 {
     position: relative;
-    width: 360px;
-    height: 50px;
-    margin: 0 5px;
-    top: -329px;
-    color: #fff;
-    background: #2DA6FF;
-    border-radius: 10px;
-    border: 0.5px solid white;
-    font-family: 'PT Sans', sans-serif;
-    font-size: 16px;
-}
-
-#sing-in-btn:hover {
-    background: #fff;
-    color: #2DA6FF;
-    border: 0.5px solid #2DA6FF;
-}
-
-#sing-up-btn {
-    position: relative;
-    width: 360px;
-    height: 50px;
-    margin: 0 5px;
-    top: -319px;
-    background: #fff;
-    color: #2DA6FF;
-    border-radius: 10px;
-    border: 0.5px solid #2DA6FF;
-    font-family: 'PT Sans', sans-serif;
-    font-size: 16px;
-}
-
-#sing-up-btn:hover {
+    top: -304px;
     background: #2DA6FF;
     color: #fff;
+    border-radius: 10px;
+    border: 2px solid;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    transition: .5s;
 }
 
-@media (min-width: 600px) {
-    body {
-        background: gray;
-    }
-    .container {
-        max-width: 700px;
-        max-height: 1000px;
-        background: red;
-    }
+#btn1:hover {
+    background: #fff;
+    color: #2DA6FF;
+}
+
+#btn2 {
+    position: relative;
+    top: -294px;
+    background: #2DA6FF;
+    color: #fff;
+    border-radius: 10px;
+    border: 2px solid;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    transition: .5s;
+}
+
+#btn2:hover {
+    background: #fff;
+    color: #2DA6FF;
 }
