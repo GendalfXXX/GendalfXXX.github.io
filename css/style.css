@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+body {
+    background: #fff;
+}
 
 #main-con {
     min-width: 320px;
@@ -111,6 +114,14 @@ input {
 #password_sing_in {
     margin: 30px 43px 0;
 }
+
+#error {
+    color: red;
+    font-size: 30px;
+    font-family: 'Manrope', sans-serif;
+    padding: 10px;
+}
+
 
 #sing_in_text2 {
     width: 90%;
