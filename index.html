@@ -43,7 +43,6 @@
             document.getElementById("sing_in_con").style.display = 'block';
         });
 
-
         sing_in.addEventListener("click", function () {
             let login = document.getElementById("login_sing_in").value;
             let password = document.getElementById("password_sing_in").value;
@@ -55,13 +54,12 @@
                 document.getElementById("error").innerText = 'Неверно введен пароль';
                 return
             }
-            let data {
+            let data = {
                 login: login;
                 password: password;
             }
             tg.sendData(JSON.stringify(data))
         });
-
 
         sing_in_back.addEventListener("click", function () {
             document.getElementById("main_con").style.display = 'block';
