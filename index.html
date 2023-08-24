@@ -13,9 +13,33 @@
             <img src="photo/white-block.svg" alt="w-block" id="w-block">
             <img src="photo/logo.svg" alt="logo" id="logo">
             <img src="photo/text-logo.svg" alt="text-logo" id="text-logo">
-            <button class="btn" id="btn1">Войти</button>
+            <button class="btn" id="btn1">Вход в кабинет</button>
             <button class="btn" id="btn2">Зарегистрироваться</button>
         </div>
+        <div class="con" id="sing_in_con">
+            <img src="photo/logo.svg" alt="logo" id="logo_sing_in">
+            <form id="form_sing_in">
+                <input type="text" placeholder="Введите логин" id="login_sing_in">
+                <input type="password" placeholder="Введите пароль" id="password_sing_in">
+            </form>
+            <button class="btn" id="btn3">Войти</button>
+            <button class="btn" id="btn4">Вернуться</button>
+        </div>
     </header>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script>
+        let tg = window.Telegram.WebApp;
+        let sing_in = document.getElementById("btn1");
+        let sing_in_back = document.getElementById("btn4");
+
+        sing_in.addEventListener("click", function () {
+            document.getElementById("main_con").style.display = 'none';
+            document.getElementById("sing_in_con").style.display = 'block';
+        });
+        sing_in_back.addEventListener("click", function () {
+            document.getElementById("main_con").style.display = 'block';
+            document.getElementById("sing_in_con").style.display = 'none';
+        });
+    </script>
 </body>
 </html>
