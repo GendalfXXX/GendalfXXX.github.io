@@ -70,19 +70,28 @@
 #sing_in_con {
     display: none;
     min-width: 320px;
-}
-#logo_sing_in {
-    position: relative;
-    padding: 0 372.5px;
-    top: 50px;
-    width: 24%;
-}
-#login_sing_in {
-    margin: 150px 43px 0;
+    text-align: center;
 }
 
-#password_sing_in {
-    margin: 20px 43px 0;
+#sing_in_con h1 {
+    display: inline-block;
+}
+
+#logo_sing_in {
+    width: 35%;
+    padding: 50px 318.5px 0;
+}
+
+#text_logo_sing_in {
+    width: 40%;
+    padding: 30px 294px 0;
+}
+
+#sing_in_text1 {
+    width: 45%;
+    padding: 70px 0 0 0;
+    font-size: 55px;
+    font-family: 'Manrope', sans-serif;
 }
 
 input {
@@ -93,4 +102,27 @@ input {
    height: 90px;
    border: 6px solid #2DA6FF;
    border-radius: 30px;
+}
+
+#login_sing_in {
+    margin: 50px 43px 0;
+}
+
+#password_sing_in {
+    margin: 30px 43px 0;
+}
+
+#sing_in_text2 {
+    width: 90%;
+    margin: 20px 43px 0;
+    font-size: 30px;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+}
+
+#btn3 {
+   margin: 80px 25px 0;
+}
+#btn4 {
+   margin: 20px 25px 0;
 }
