@@ -65,7 +65,7 @@
     color: #2DA6FF;
 }
 
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 951px) {
     #banner {
         margin: 0 170px 0 170px;
     }
