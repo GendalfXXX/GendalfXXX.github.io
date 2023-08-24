@@ -18,12 +18,15 @@
         </div>
         <div class="con" id="sing_in_con">
             <img src="photo/logo.svg" alt="logo" id="logo_sing_in">
+            <img src="photo/text-logo.svg" alt="text-logo" id="text_logo_sing_in">
+            <h1 id="sing_in_text1">Вход в кабинет</h1>
             <form id="form_sing_in">
                 <input type="text" placeholder="Введите логин" id="login_sing_in">
                 <input type="password" placeholder="Введите пароль" id="password_sing_in">
             </form>
+            <p id="sing_in_text2">Нет личного кабинета? Создайте его в главном меню нажав кнопку "Главное меню".</p>
             <button class="btn" id="btn3">Войти</button>
-            <button class="btn" id="btn4">Вернуться</button>
+            <button class="btn" id="btn4">Главное меню</button>
         </div>
     </header>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
@@ -31,6 +34,7 @@
         let tg = window.Telegram.WebApp;
         let sing_in = document.getElementById("btn1");
         let sing_in_back = document.getElementById("btn4");
+        tg.expand();
 
         sing_in.addEventListener("click", function () {
             document.getElementById("main_con").style.display = 'none';
