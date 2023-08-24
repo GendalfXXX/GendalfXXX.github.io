@@ -1,45 +1,53 @@
-.con {
-    max-width: 376px;
-    max-height: 650px;
+* {
+    margin: 0;
+    padding: 0;
 }
 
+
+.con {
+    min-width: 320px;
+}
+
+
 #banner {
-    margin: 0 10px 0 10px;
+    width: 100%;
 }
 
 #w-block {
-    top: -65px;
+    width: 100%;
     position: relative;
-    width: 374px;
+    top: -160px;
 }
 
 #logo {
     position: relative;
-    padding: 0 149px;
-    top: -368px;
+    padding: 0 372.5px;
+    top: -950px;
+    width: 24%;
 }
 
 #text-logo {
     position: relative;
-    padding: 0 89px;
-    top: -354px;
+    padding: 0 301.5px;
+    top: -940px;
+    width: 38.5%;
 }
 
 .btn {
-    min-width: 362px;
-    min-height: 50px;
-    margin: 0 7px;
+    width: 95%;
+    height: 80px;
+    margin: 0 25px;
 }
 
 #btn1 {
     position: relative;
-    top: -304px;
+    top: -800px;
     background: #2DA6FF;
     color: #fff;
-    border-radius: 10px;
-    border: 2px solid;
+    border-radius: 30px;
+    border: 6px solid;
     font-family: 'Manrope', sans-serif;
-    font-size: 16px;
+    font-size: 30px;
     transition: .5s;
 }
 
@@ -50,35 +58,17 @@
 
 #btn2 {
     position: relative;
-    top: -294px;
+    top: -770px;
     background: #2DA6FF;
     color: #fff;
-    border-radius: 10px;
-    border: 2px solid;
+    border-radius: 30px;
+    border: 6px solid;
     font-family: 'Manrope', sans-serif;
-    font-size: 16px;
+    font-size: 30px;
     transition: .5s;
 }
 
 #btn2:hover {
     background: #fff;
     color: #2DA6FF;
-}
-
-@media screen and (min-width: 950px) {
-    #banner {
-        margin: 0 170px 0 170px;
-    }
-    .con {
-        max-width: 1000px;
-        max-height: 1250px;
-        border: 1px solid;
-    }
-    #w-block {
-        top: -65px;
-        margin: 0 120px 0 120px;
-        position: relative;
-        width: 460px;
-        border: 1px solid;
-    }
 }
