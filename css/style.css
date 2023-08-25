@@ -140,25 +140,33 @@ input {
     #main-con {
         min-width: 107px;
     }
-    #w-block {
-        top: 70px;
+    #banner {
+        height: 280px;
+        padding-top: 20px;
+    }
+    #about_con {
+        height: 200px;
+        border-radius: 40px 40px 0 0;
+        box-shadow: 0px -11px 20px 0px #bbbbbb;
+    }
+    #logo {
+        padding: 10px 133px 0;
+    }
+    #text-logo {
+        padding: 5px 114px 0;
     }
     .btn {
         width: 95%;
-        height: 30px;
-        margin: 0 25px;
-        background: #2DA6FF;
-        color: #fff;
+        height: 50px;
+        margin: 0 9.5px 0;
         border-radius: 10px;
         border: 2px solid;
-        font-family: 'Manrope', sans-serif;
-        font-size: 10px;
-        transition: .5s;
+        font-size: 15px;
     }
-    #text-logo {
-        position: absolute;
-        padding: 0 294px;
-        top: 1000px;
-        width: 40%;
+    #btn1 {
+        margin-top: 75px;
+    }
+    #btn2 {
+        margin-top: 10px;
     }
 }
