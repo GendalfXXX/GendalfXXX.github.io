@@ -135,7 +135,7 @@ input {
    margin: 20px 25px 0;
 }
 
-@media screen and (min-width: 380px) and (max-width: 400px) {
+@media screen and (min-width: 370px) and (max-width: 420px) {
     #main-con {
         min-width: 107px;
     }
