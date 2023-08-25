@@ -136,3 +136,21 @@ input {
 #btn4 {
    margin: 20px 25px 0;
 }
+
+@media screen and (min-width: 380px) and (max-width: 380px) {
+    #main-con {
+        min-width: 107px;
+    }
+    .btn {
+        width: 95%;
+        height: 30px;
+        margin: 0 25px;
+        background: #2DA6FF;
+        color: #fff;
+        border-radius: 10px;
+        border: 2px solid;
+        font-family: 'Manrope', sans-serif;
+        font-size: 10px;
+        transition: .5s;
+    }
+}
