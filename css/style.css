@@ -18,22 +18,22 @@ body {
 
 #w-block {
     width: 100%;
-    position: relative;
-    top: -160px;
+    position: absolute;
+    top: 800px;
 }
 
 #logo {
-    position: relative;
+    position: absolute;
     padding: 0 372.5px;
-    top: -950px;
+    top: 900px;
     width: 24%;
 }
 
 #text-logo {
-    position: relative;
-    padding: 0 301.5px;
-    top: -940px;
-    width: 38.5%;
+    position: absolute;
+    padding: 0 294px;
+    top: 1000px;
+    width: 40%;
 }
 
 .btn {
@@ -51,7 +51,7 @@ body {
 
 #btn1 {
     position: relative;
-    top: -800px;
+    top: 250px;
 }
 
 #btn1:hover {
@@ -61,7 +61,7 @@ body {
 
 #btn2 {
     position: relative;
-    top: -770px;
+    top: 270px;
 }
 
 .btn:hover {
@@ -140,6 +140,9 @@ input {
 @media screen and (min-width: 380px) and (max-width: 380px) {
     #main-con {
         min-width: 107px;
+    }
+    #w-block {
+        top: -70px;
     }
     .btn {
         width: 95%;
