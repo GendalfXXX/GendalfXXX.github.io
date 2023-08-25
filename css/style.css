@@ -14,31 +14,32 @@ body {
 
 #banner {
     width: 100%;
+    object-fit: cover;
+    height: 750px;
+    padding-top: 20px;
 }
 
-#w-block {
+#about_con {
     width: 100%;
-    position: absolute;
-    top: 800px;
+    background: #FFF;
+    height: 965px;
+    border-radius: 80px 80px 0 0;
+    box-shadow: 0px -11px 20px 0px #bbbbbb;
 }
 
 #logo {
-    position: absolute;
-    padding: 0 372.5px;
-    top: 900px;
-    width: 24%;
+    width: 30%;
+    padding: 10px 343px 0;
 }
 
 #text-logo {
-    position: absolute;
-    padding: 0 294px;
-    top: 1000px;
     width: 40%;
+    padding: 10px 294px 0;
 }
 
 .btn {
     width: 95%;
-    height: 100px;
+    height: 110px;
     margin: 0 25px;
     background: #2DA6FF;
     color: #fff;
@@ -50,8 +51,7 @@ body {
 }
 
 #btn1 {
-    position: relative;
-    top: 250px;
+    margin-top: 150px;
 }
 
 #btn1:hover {
@@ -60,8 +60,7 @@ body {
 }
 
 #btn2 {
-    position: relative;
-    top: 270px;
+    margin-top: 20px;
 }
 
 .btn:hover {
@@ -142,7 +141,7 @@ input {
         min-width: 107px;
     }
     #w-block {
-        top: -70px;
+        top: 70px;
     }
     .btn {
         width: 95%;
@@ -155,5 +154,11 @@ input {
         font-family: 'Manrope', sans-serif;
         font-size: 10px;
         transition: .5s;
+    }
+    #text-logo {
+        position: absolute;
+        padding: 0 294px;
+        top: 1000px;
+        width: 40%;
     }
 }
