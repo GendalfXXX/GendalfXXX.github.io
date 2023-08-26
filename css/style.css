@@ -12,7 +12,7 @@ body {
     overflow-x: hidden;
 }
 
-@media screen and (min-width: 360px) and (max-width: 430px) {
+@media screen and (min-width: 360px) and (max-width: 420px) {
     body {
         min-width: 360px;
         overflow-x: hidden;
