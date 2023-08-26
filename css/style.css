@@ -15,11 +15,11 @@ body {
 @media screen and (min-width: 360px) and (max-width: 390px) {
     body {
         min-width: 360px;
-        min-height: 667px
         overflow-x: hidden;
     }
     #main_con {
         min-width: 360px;
+        min-height: 667px;
     }
     #banner {
         padding: 29px 50px 4px;
