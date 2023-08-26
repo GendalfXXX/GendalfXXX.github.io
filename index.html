@@ -2,35 +2,21 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TEST WEB APP</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Manrope&family=PT+Sans:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="first_page">
-        <div class="con" id="main_con">
-            <img src="photo/banner.svg" alt="banner" id="banner">
-            <div class="com" id="about_con">
-                <img src="photo/logo.svg" alt="logo" id="logo">
-                <img src="photo/text-logo.svg" alt="text-logo" id="text-logo">
-                <button class="btn" id="btn1">Вход в кабинет</button>
-                <button class="btn" id="btn2">Зарегистрироваться</button>
-            </div>
+    <div class="container" id="main_con">
+        <img src="photo/banner.svg" alt="banner" id="banner">
+        <div class="container" id="logo_con">
+            <img src="photo/logo.svg" alt="logo" id="logo">
+            <img src="photo/logo_text.svg" alt="logo_text" id="logo_text">
         </div>
-        <div class="con" id="sing_in_con">
-            <img src="photo/logo.svg" alt="logo" id="logo_sing_in">
-            <img src="photo/text-logo.svg" alt="text-logo" id="text_logo_sing_in">
-            <h1 id="sing_in_text1">Вход в кабинет</h1>
-            <form id="form_sing_in">
-                <input type="text" placeholder="Введите логин" id="login_sing_in">
-                <input type="password" placeholder="Введите пароль" id="password_sing_in">
-            </form>
-            <div id="error"></div>
-            <p id="sing_in_text2">Нет личного кабинета? Создайте его в главном меню, нажав кнопку "Главное меню".</p>
-            <button class="btn" id="btn3">Войти</button>
-            <button class="btn" id="btn4">Главное меню</button>
-        </div>
-    </header>
+        <button class="btn" id="main_btn_sing_in">Вход в кабинет</button>
+        <button class="btn" id="main_btn_sing_up">Зарегистрироваться</button>
+    </div>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script>
         let tg = window.Telegram.WebApp;
