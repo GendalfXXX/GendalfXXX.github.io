@@ -13,6 +13,7 @@ body {
 }
 
 @media screen and (min-width: 360px) and (max-width: 400px) {
+    /* Главное меню */
     body {
         min-width: 360px;
         overflow-x: hidden;
