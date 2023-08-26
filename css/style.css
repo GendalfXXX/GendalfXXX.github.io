@@ -138,7 +138,7 @@ body {
 
 
 /* Desktop */
-@media screen and (min-width: 390px) and (max-width: 400px) {
+@media screen and (min-width: 420px) and (max-width: 420px) {
     /* Главное меню */
     body {
         min-width: 400px;
@@ -146,6 +146,7 @@ body {
     #main_con {
         min-width: 400px;
         min-height: 490px;
+        background: red;
     }
     #banner {
         width: 314px;
