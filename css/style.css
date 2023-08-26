@@ -322,7 +322,7 @@ body {
     }
 }
 
-@media screen and (min-width: 400px) and (max-width: 400px) {
+@media screen and (min-width: 390px) and (max-width: 400px) {
     #sing_in_con {
         min-width: 400px;
         min-height: 650px;
