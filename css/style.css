@@ -6,60 +6,161 @@
     padding: 0;
 }
 
-
+/* Android + 6/7/8 IPHONE */
+/* Главное меню */
 body {
-    min-width: 320px;
+    min-width: 360px;
     overflow-x: hidden;
 }
+#main_con {
+    min-width: 360px;
+    min-height: 640px;
+}
+#banner {
+    padding: 29px 50px 4px;
+}
+#logo {
+    padding: 0 153.5px 0;
+}
+#logo_text {
+    padding: 6px 104px 0;
+}
+.btn {
+    width: 305px;
+    height: 50px;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 0px;
+    transition: 0.5s;
+}
+#main_btn_sing_in {
+    margin: 30px 35px 0;
+    background: #249AFF;
+    color: #fff;
+}
+#main_btn_sing_up {
+    margin: 13px 35px 0;
+    background: #fff;
+    color: #249AFF;
+    border: 1px solid #249AFF;
+}
+#main_btn_sing_in:hover {
+    background: #fff;
+    color: #249AFF;
+    border: 1px solid #249AFF;
+    font-size: 15px;
+}
+#main_btn_sing_up:hover {
+    font-size: 15px;
+}
 
-@media screen and (min-width: 360px) and (max-width: 400px) {
+/*IPHONE 6.7.8 + */
+@media screen and (min-width: 410px) and (max-width: 420px) {
     /* Главное меню */
     body {
-        min-width: 360px;
+        min-width: 414px;
         overflow-x: hidden;
     }
     #main_con {
-        min-width: 360px;
-        min-height: 640px;
+        min-width: 414px;
+        min-height: 736px;
     }
     #banner {
-        padding: 29px 50px 4px;
+        width: 322px;
+        height: 330px;
+        padding: 68px 46px 0;
     }
     #logo {
-        padding: 0 153.5px 0;
+        padding: 0 173px 0;
     }
     #logo_text {
-        padding: 6px 104px 0;
+        padding: 6px 120px 0;
     }
     .btn {
-        width: 305px;
-        height: 50px;
-        text-align: center;
-        font-family: 'Manrope', sans-serif;
-        font-size: 14px;
-        font-weight: 600;
-        border-radius: 10px;
-        border: 0px;
-        transition: 0.5s;
-    }
-    #main_btn_sing_in {
-        margin: 30px 35px 0;
-        background: #249AFF;
-        color: #fff;
-    }
-    #main_btn_sing_up {
-        margin: 13px 35px 0;
-        background: #fff;
-        color: #249AFF;
-        border: 1px solid #249AFF;
-    }
-    #main_btn_sing_in:hover {
-        background: #fff;
-        color: #249AFF;
-        border: 1px solid #249AFF;
-        font-size: 15px;
-    }
-    #main_btn_sing_up:hover {
-        font-size: 15px;
+        width: 344px;
     }
 }
+
+/* IPHONE 12 PRO */
+@media screen and (min-width: 390px) and (max-width: 390px) {
+    /* Главное меню */
+    body {
+        min-width: 390px;
+    }
+    #main_con {
+        min-width: 390px;
+        min-height: 844px;
+    }
+    #banner {
+        width: 298px;
+        height: 330px;
+        padding: 122px 46px 0;
+    }
+    #logo {
+        padding: 0 161px 0;
+    }
+    #logo_text {
+        padding: 6px 108px 0;
+    }
+    .btn {
+        width: 320px;
+    }
+}
+
+
+/*IPHONE 13 PRO */
+@media screen and (min-width: 428px) and (max-width: 430px) {
+    /* Главное меню */
+    body {
+        min-width: 426px;
+    }
+    #main_con {
+        min-width: 426px;
+        min-height: 926px;
+    }
+    #banner {
+        width: 338px;
+        height: 330px;
+        padding: 163px 45px 0;
+    }
+    #logo {
+        padding: 0 180px 0;
+    }
+    #logo_text {
+        padding: 6px 127px 0;
+    }
+    .btn {
+        width: 358px;
+    }
+}
+
+
+/*IPHONE 13 PRO */
+@media screen and (min-width: 400px) and (max-width: 400px) {
+    /* Главное меню */
+    body {
+        min-width: 400px;
+    }
+    #main_con {
+        min-width: 400px;
+        min-height: 650px;
+    }
+    #banner {
+        width: 285.41px;
+        height: 356.76px;
+        padding: 0 57.3px 0;
+    }
+    #logo {
+        padding: 0 163.5px 0;
+    }
+    #logo_text {
+        padding: 6px 106px 0;
+    }
+    .btn {
+        width: 324.32px;
+    }
+}
+
