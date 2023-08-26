@@ -164,3 +164,178 @@ body {
     }
 }
 
+/* Окно входа */
+#sing_in_con {
+    min-width: 360px;
+    min-height: 640px;
+    display: none;
+}
+
+#sing_in_text {
+    width: 143px;
+    height: 26px;
+    padding: 191px 116px 0;
+    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+}
+
+#sing_in_inputs {
+    width: 315px;
+    height: 188px;
+    margin: 23px 30px 21px;
+}
+
+#sing_in_inputs input {
+    width: 293px;
+    height: 50px;
+    padding-left: 20px;
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+    font-size: 14px;
+    font-family: 'Manrope', sans-serif;
+}
+
+#sing_in_password {
+    margin: 13px 0 26px 0;
+}
+
+#btn_sing_in {
+    width: 100%;
+    color: #fff;
+    background: #249AFF;
+}
+
+#btn_sing_in:hover {
+    color: #249AFF;
+    background: #fff;
+    font-size: 15px;
+    border: 1px solid #249AFF;
+}
+
+#btn_sing_in_up {
+    width: 315px;
+    height: 18px;
+    color: #249AFF;
+    background: #fff;
+    margin: 0 30px 0;
+}
+
+#btn_sing_in_up:hover {
+    font-size: 14.5px;
+}
+
+@media screen and (min-width: 410px) and (max-width: 420px) {
+    #sing_in_con {
+        min-width: 414px;
+        min-height: 736px;
+    }
+
+    #sing_in_text {
+        padding: 229px 135.5px 0;
+    }
+
+    #sing_in_inputs {
+        width: 354px;
+        height: 188px;
+        margin: 23px 30px 21px;
+    }
+
+    #sing_in_inputs input {
+        width: 332px;
+    }
+
+    #sing_in_password {
+        margin: 12px 0 26px 0;
+    }
+
+    #btn_sing_in_up {
+        width: 354px;
+    }
+}
+
+@media screen and (min-width: 390px) and (max-width: 390px) {
+    #sing_in_con {
+        min-width: 390px;
+        min-height: 844px;
+    }
+
+    #sing_in_text {
+        padding: 283px 123.5px 0;
+    }
+
+    #sing_in_inputs {
+        width: 330px;
+        height: 188px;
+        margin: 23px 30px 21px;
+    }
+
+    #sing_in_inputs input {
+        width: 308px;
+    }
+
+    #sing_in_password {
+        margin: 12px 0 26px 0;
+    }
+
+    #btn_sing_in_up {
+        width: 330px;
+    }
+}
+
+@media screen and (min-width: 428px) and (max-width: 430px) {
+    #sing_in_con {
+        min-width: 428px;
+        min-height: 926px;
+    }
+
+    #sing_in_text {
+        padding: 324px 142.5px 0;
+    }
+
+    #sing_in_inputs {
+        width: 368px;
+        height: 188px;
+        margin: 23px 30px 21px;
+    }
+
+    #sing_in_inputs input {
+        width: 346px;
+    }
+
+    #sing_in_password {
+        margin: 12px 0 26px 0;
+    }
+
+    #btn_sing_in_up {
+        width: 368px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 400px) {
+    #sing_in_con {
+        min-width: 400px;
+        min-height: 650px;
+    }
+
+    #sing_in_text {
+        padding: 172px 128.5px 0;
+    }
+
+    #sing_in_inputs {
+        width: 340px;
+        height: 188px;
+        margin: 23px 30px 21px;
+    }
+
+    #sing_in_inputs input {
+        width: 318px;
+    }
+
+    #sing_in_password {
+        margin: 12px 0 26px 0;
+    }
+
+    #btn_sing_in_up {
+        width: 340px;
+    }
+}
