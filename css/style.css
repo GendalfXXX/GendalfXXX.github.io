@@ -1,238 +1,64 @@
+
+/* font-family: 'Manrope', sans-serif; */
+
 * {
     margin: 0;
     padding: 0;
 }
 
+
 body {
-    background: #fff;
-}
-
-#main-con {
     min-width: 320px;
+    overflow-x: hidden;
 }
 
-#banner {
-    width: 100%;
-    object-fit: cover;
-    height: 750px;
-    padding-top: 20px;
-}
-
-#about_con {
-    width: 100%;
-    background: #FFF;
-    height: 600px;
-    border-radius: 80px 80px 0 0;
-    box-shadow: 0px -11px 20px 0px #bbbbbb;
-}
-
-#logo {
-    width: 30%;
-    padding: 10px 343px 0;
-}
-
-#text-logo {
-    width: 40%;
-    padding: 10px 294px 0;
-}
-
-.btn {
-    width: 95%;
-    height: 110px;
-    margin: 0 25px;
-    background: #2DA6FF;
-    color: #fff;
-    border-radius: 30px;
-    border: 6px solid;
-    font-family: 'Manrope', sans-serif;
-    font-size: 30px;
-    transition: .5s;
-}
-
-#btn1 {
-    margin-top: 150px;
-}
-
-#btn1:hover {
-    background: #fff;
-    color: #2DA6FF;
-}
-
-#btn2 {
-    margin-top: 20px;
-}
-
-.btn:hover {
-    background: #fff;
-    color: #2DA6FF;
-}
-
-/* Окошко входа */
-#sing_in_con {
-    display: none;
-    min-width: 320px;
-    text-align: center;
-}
-
-#sing_in_con h1 {
-    display: inline-block;
-}
-
-#logo_sing_in {
-    width: 35%;
-    padding: 50px 318.5px 0;
-}
-
-#text_logo_sing_in {
-    width: 40%;
-    padding: 30px 294px 0;
-}
-
-#sing_in_text1 {
-    width: 45%;
-    padding: 70px 0 0 0;
-    font-size: 55px;
-    font-family: 'Manrope', sans-serif;
-}
-
-input {
-   text-align: center;
-   font-size: 30px;
-   font-family: 'Manrope', sans-serif;
-   width: 90%;
-   height: 90px;
-   border: 6px solid #2DA6FF;
-   border-radius: 30px;
-}
-
-#login_sing_in {
-    margin: 50px 43px 0;
-}
-
-#password_sing_in {
-    margin: 30px 43px 0;
-}
-
-#error {
-    color: red;
-    font-size: 30px;
-    font-family: 'Manrope', sans-serif;
-    padding: 10px;
-}
-
-#sing_in_text2 {
-    width: 90%;
-    margin: 20px 43px 0;
-    font-size: 30px;
-    font-family: 'Manrope', sans-serif;
-    text-align: center;
-}
-
-#btn3 {
-   margin: 80px 25px 0;
-}
-#btn4 {
-   margin: 20px 25px 0;
-}
-
-@media screen and (min-width: 370px) and (max-width: 420px) {
-    #main-con {
-        min-width: 107px;
+@media screen and (min-width: 360px) and (max-width: 375px) {
+    body {
+        min-width: 360px;
+        overflow-x: hidden;
+    }
+    #main_con {
+        min-width: 360px;
     }
     #banner {
-        height: 280px;
-        padding-top: 20px;
-    }
-    #about_con {
-        height: 200px;
-        border-radius: 40px 40px 0 0;
-        box-shadow: 0px -11px 20px 0px #bbbbbb;
+        padding: 29px 50px 4px;
     }
     #logo {
-        padding: 10px 133px 0;
+        padding: 0 153.5px 0;
     }
-    #text-logo {
-        padding: 5px 114px 0;
+    #logo_text {
+        padding: 6px 104px 0;
     }
     .btn {
-        width: 95%;
+        width: 305px;
         height: 50px;
-        margin: 0 9.5px 0;
+        text-align: center;
+        font-family: 'Manrope', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
         border-radius: 10px;
-        border: 2px solid;
+        border: 0px;
+        transition: 0.5s;
+    }
+    #main_btn_sing_in {
+        margin: 30px 35px 0;
+        background: #249AFF;
+        color: #fff;
+    }
+    #main_btn_sing_up {
+        margin: 13px 35px 0;
+        background: #fff;
+        color: #249AFF;
+        border: 1px solid #249AFF;
+    }
+    #main_btn_sing_in:hover {
+        background: #fff;
+        color: #249AFF;
+        border: 1px solid #249AFF;
         font-size: 15px;
     }
-    #btn1 {
-        margin-top: 75px;
-    }
-    #btn2 {
-        margin-top: 10px;
-    }
-    /* Окошко входа */
-    #sing_in_con {
-        display: none;
-        min-width: 320px;
-        text-align: center;
+    #main_btn_sing_up:hover {
+        font-size: 15px;
     }
 
-    #sing_in_con h1 {
-        display: inline-block;
-    }
-
-    #logo_sing_in {
-        width: 35%;
-        padding: 50px 318.5px 0;
-    }
-
-    #text_logo_sing_in {
-        width: 40%;
-        padding: 30px 294px 0;
-    }
-
-    #sing_in_text1 {
-        width: 45%;
-        padding: 70px 0 0 0;
-        font-size: 55px;
-        font-family: 'Manrope', sans-serif;
-    }
-
-    input {
-       text-align: center;
-       font-size: 30px;
-       font-family: 'Manrope', sans-serif;
-       width: 90%;
-       height: 90px;
-       border: 6px solid #2DA6FF;
-       border-radius: 30px;
-    }
-
-    #login_sing_in {
-        margin: 50px 43px 0;
-    }
-
-    #password_sing_in {
-        margin: 30px 43px 0;
-    }
-
-    #error {
-        color: red;
-        font-size: 30px;
-        font-family: 'Manrope', sans-serif;
-        padding: 10px;
-    }
-
-    #sing_in_text2 {
-        width: 90%;
-        margin: 20px 43px 0;
-        font-size: 30px;
-        font-family: 'Manrope', sans-serif;
-        text-align: center;
-    }
-
-    #btn3 {
-       margin: 80px 25px 0;
-    }
-    #btn4 {
-       margin: 20px 25px 0;
-    }
 }
