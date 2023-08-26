@@ -12,7 +12,7 @@ body {
     overflow-x: hidden;
 }
 
-@media screen and (min-width: 360px) and (max-width: 420px) {
+@media screen and (min-width: 360px) and (max-width: 400px) {
     body {
         min-width: 360px;
         overflow-x: hidden;
@@ -56,10 +56,10 @@ body {
         background: #fff;
         color: #249AFF;
         border: 1px solid #249AFF;
-        font-size: 14px;
+        font-size: 15px;
     }
     #main_btn_sing_up:hover {
-        font-size: 14px;
+        font-size: 15px;
     }
 
 }
