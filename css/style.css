@@ -84,9 +84,8 @@ body {
     }
 }
 
-/* IPHONE 12 PRO */
+/* IPHONE 12 PRO
 @media screen and (min-width: 390px) and (max-width: 390px) {
-    /* Главное меню */
     body {
         min-width: 390px;
     }
@@ -109,7 +108,7 @@ body {
         width: 320px;
     }
 }
-
+*/
 
 /*IPHONE 13 PRO */
 @media screen and (min-width: 428px) and (max-width: 430px) {
@@ -139,7 +138,7 @@ body {
 
 
 /* Desktop */
-@media screen and (min-width: 400px) and (max-width: 400px) {
+@media screen and (min-width: 390px) and (max-width: 400px) {
     /* Главное меню */
     body {
         min-width: 400px;
