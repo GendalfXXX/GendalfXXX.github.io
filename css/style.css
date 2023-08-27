@@ -1,6 +1,3 @@
-
-/* font-family: 'Manrope', sans-serif; */
-
 * {
     margin: 0;
     padding: 0;
@@ -15,6 +12,7 @@ body {
 #main_con {
     min-width: 360px;
     min-height: 640px;
+    background: red;
 }
 #banner {
     padding: 29px 50px 4px;
@@ -63,6 +61,7 @@ body {
     body {
         min-width: 414px;
         overflow-x: hidden;
+        background: green;
     }
     #main_con {
         min-width: 414px;
@@ -84,7 +83,7 @@ body {
     }
 }
 
-/* IPHONE 12 PRO
+/* IPHONE 12 PRO */
 @media screen and (min-width: 390px) and (max-width: 390px) {
     body {
         min-width: 390px;
@@ -92,6 +91,7 @@ body {
     #main_con {
         min-width: 390px;
         min-height: 844px;
+        background: gray;
     }
     #banner {
         width: 298px;
@@ -108,13 +108,14 @@ body {
         width: 320px;
     }
 }
-*/
+
 
 /*IPHONE 13 PRO */
 @media screen and (min-width: 428px) and (max-width: 430px) {
     /* Главное меню */
     body {
         min-width: 426px;
+        background: yellow;
     }
     #main_con {
         min-width: 426px;
@@ -142,6 +143,7 @@ body {
     /* Главное меню */
     body {
         min-width: 400px;
+        background: black;
     }
     #main_con {
         min-width: 400px;
