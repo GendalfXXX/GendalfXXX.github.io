@@ -94,7 +94,7 @@ body {
     }
 }
 
-@media screen and (min-width: 390px) and (max-width: 390px) {
+@media screen and (min-width: 390px) and (max-width: 395px) {
     #main_con {
         min-width: 390px;
         min-height: 500px;
