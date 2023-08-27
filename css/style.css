@@ -12,7 +12,7 @@ body {
 
 #main_con {
     min-width: 360px;
-    min-height: 650px;
+    max-height: 640px;
 }
 
 #banner {
@@ -238,7 +238,7 @@ body {
 }
 
 #palm {
-    padding: 5px 167.5px 23px;
+    padding: 149px 167.5px 23px;
 }
 
 #sing_in_text {
