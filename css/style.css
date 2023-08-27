@@ -53,7 +53,7 @@ body {
     font-size: 15px;
 }
 
-@media screen and (min-width: 390px) and (max-width: 392px) {
+@media screen and (min-width: 392px) and (max-width: 392px) {
     #main_con {
         min-width: 365px;
         min-height: 640px;
