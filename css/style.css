@@ -437,3 +437,7 @@ body {
         margin: 0 24.5px 0;
     }
 }
+
+#sing_up_choice_con {
+    display: none;
+}
