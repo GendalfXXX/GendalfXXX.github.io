@@ -55,7 +55,7 @@ body {
 
 @media screen and (min-width: 390px) and (max-width: 392px) {
     #main_con {
-        min-width: 360px;
+        min-width: 365px;
         min-height: 640px;
         background: purple;
     }
