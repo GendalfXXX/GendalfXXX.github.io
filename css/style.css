@@ -55,17 +55,25 @@ body {
     font-size: 15px;
 }
 
+@media screen and (min-width: 380px) and (max-width: 390px) {
+    #main_con {
+        min-width: 360px;
+        min-height: 640px;
+        background: purple;
+    }
+}
+
 /*IPHONE 6.7.8 + */
 @media screen and (min-width: 410px) and (max-width: 420px) {
     /* Главное меню */
     body {
         min-width: 414px;
         overflow-x: hidden;
-        background: green;
     }
     #main_con {
         min-width: 414px;
         min-height: 736px;
+        background: green;
     }
     #banner {
         width: 322px;
