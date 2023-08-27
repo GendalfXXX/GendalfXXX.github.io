@@ -115,11 +115,11 @@ body {
     /* Главное меню */
     body {
         min-width: 426px;
-        background: yellow;
     }
     #main_con {
         min-width: 426px;
         min-height: 750px;
+        background: yellow;
     }
     #banner {
         width: 338px;
@@ -143,12 +143,11 @@ body {
     /* Главное меню */
     body {
         min-width: 400px;
-        background: black;
     }
     #main_con {
         min-width: 400px;
         min-height: 490px;
-        background: red;
+        background: black;
     }
     #banner {
         width: 314px;
