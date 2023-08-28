@@ -9,35 +9,108 @@
 </head>
 <body>
     <div class="container" id="main_con">
-        <img src="photo/banner.svg" alt="banner" id="banner">
-        <div class="container" id="logo_con">
-            <img src="photo/logo.svg" alt="logo" id="logo">
-            <p id="logo_text">Зарабатывай, рассказывая о банковских продуктах</p>
+        <div class="container" id="main_inner_con">
+            <img src="photo/banner.svg" alt="banner" id="banner">
+            <div class="container" id="logo_con">
+                <img src="photo/logo.svg" alt="logo" id="logo">
+                <p id="logo_text">Зарабатывай, рассказывая о банковских продуктах</p>
+            </div>
+            <button class="btn" id="main_btn_sing_in">Вход в кабинет</button>
+            <button class="btn" id="main_btn_sing_up">Зарегистрироваться</button>
         </div>
-        <button class="btn" id="main_btn_sing_in">Вход в кабинет</button>
-        <button class="btn" id="main_btn_sing_up">Зарегистрироваться</button>
     </div>
     <div class="container" id="sing_in_con">
-        <img src="photo/palm.svg" alt="palm" id="palm">
-        <h1 id="sing_in_text">Вход в кабинет</h1>
-        <div class="container_inner" id="sing_in_inputs">
-            <form action="#" id="form_sing_in">
-                <input enterkeyhint="done" type="text" id="sing_in_login" placeholder="Логин">
-                <input enterkeyhint="done" type="password" id="sing_in_password" placeholder="Пароль">
-            </form>
-            <button onclick="location.href='https://t.me/ivan_refli'" type="button" class="btn" id="remember_password">Восстановить пароль</button>
-            <button class="btn" id="btn_sing_in">Войти</button>
+        <div class="container" id="sing_in_inner_con">
+            <img src="photo/palm_gif.gif" alt="palm" id="palm">
+            <h1 id="sing_in_text">Вход в кабинет</h1>
+            <div class="container_inner" id="sing_in_inputs">
+                <form action="#" id="form_sing_in">
+                    <input type="text" id="sing_in_login" placeholder="Логин">
+                    <input type="password" id="sing_in_password" placeholder="Пароль">
+                </form>
+                <button onclick="location.href='https://t.me/ivan_refli'" type="button" class="btn" id="remember_password">Восстановить пароль</button>
+                <button class="btn" id="btn_sing_in">Войти</button>
+            </div>
+            <button class="btn" id="btn_sing_in_up">Зарегистрироваться ›</button>
         </div>
-        <button class="btn" id="btn_sing_in_up">Зарегистрироваться ›</button>
     </div>
     <div class="container" id="sing_up_choice_con">
-        <h1 id="sing_up_text">Регистрация</h1>
-        <p id="sing_up_about">Выбери, что тебе больше подходит</p>
-        <img src="photo/emoji_sing_up.svg" alt="emoji_sing_up" id="emoji_sing_up">
-        <div class="container" id="sing_up_bloger_con">
-            <p id="bloger_about">Рекламировать банковские продукты на свою аудиторию в telegram-канале.</p>
-            <button class="btn" id="sing_up_btn_bloger">Блогер ›</button>
-            .container#bloger_
+        <div class="container" id="sing_up_choice_inner_con">
+            <h1 id="sing_up_text">Регистрация</h1>
+            <p id="sing_up_about">Выбери, что тебе больше подходит</p>
+            <div class="container" id="sing_up_emoji">
+                <img src="photo/emoji_sing_up.svg" alt="emoji_sing_up" id="emoji_sing_up">
+            </div>
+            <div class="container" id="sing_up_bloger_con">
+                <p id="bloger_about">Рекламировать банковские продукты на свою аудиторию в telegram-канале.</p>
+                <button class="btn" id="sing_up_btn_bloger">Блогер ›</button>
+                <div class="container" id="sing_up_bloger_about1">
+                    <img src="photo/danger.svg" alt="danger" id="danger_blog">
+                    <p id="condition_bloger">Нужен канал от 500 подписчиков</p>
+                </div>
+                <div class="container" id="sing_up_bloger_about2">
+                    <div class="container" id="bloger_about1">
+                        <img src="photo/point.svg" alt="point" id="point_blog1" class="point">
+                        <p id="condition_bloger2">Доступны: <span>“Блогерские офферы”</span></p>
+                    </div>
+                    <div class="container" id="bloger_about2">
+                        <img src="photo/point.svg" alt="point" id="point_blog2" class="point">
+                        <p id="condition_bloger3">Доступны: <span>“Агентские офферы”</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="sing_up_agent_con">
+                <p id="agent_about">Рассказывать о банковских продуктах лично. (Друзья, коллеги, знакомые и др.)</p>
+                <button class="btn" id="sing_up_btn_agent">Агент ›</button>
+                <div class="container" id="sing_up_agent_about">
+                    <div class="container" id="agent_about1">
+                        <img src="photo/point.svg" alt="point" id="point_agent1" class="point">
+                        <p id="condition_agent1">Доступны: <span>“Агентские офферы”</span></p>
+                    </div>
+                    <div class="container" id="agent_about2">
+                        <img src="photo/red_point.svg" alt="point" id="point_agent2" class="point">
+                        <p id="condition_agent2">Не доступны: <span>“Блогерские офферы”</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="sing_up_pc">
+                <div class="containers" id="left_con_bloger">
+                    <button class="btn" id="btn_bloger">Блогер ›</button>
+                    <img src="photo/lion_bloger.svg" alt="lion" id="lion">
+                    <p id="bloger_about_pc">Рекламировать банковские продукты на свою аудиторию в telegram-канале.</p>
+                    <div class="container" id="bloger_conditions">
+                        <div class="container" id="danger_bloger_con">
+                            <img src="photo/danger.svg" alt="danger" id="danger_bloger" class="point">
+                            <p id="condition_bloger_1">Нужен канал <span>от 500 подписчиков</span></p>
+                        </div>
+                        <div class="container" id="bloger_about_pc_con">
+                            <div class="container" id="con_up">
+                                <img src="photo/point.svg" alt="point" id="point_1" class="point">
+                                <p id="condition_bloger_2">Доступны: <span>Агентские офферы</span></p>
+                            </div>
+                            <div class="container" id="con_down">
+                                <img src="photo/point.svg" alt="point" id="point_2" class="point">
+                                <p id="condition_bloger_3">Доступны: <span>Блогерские офферы</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="containers" id="right_con_agent">
+                    <button class="btn" id="btn_agent">Агент ›</button>
+                    <img src="photo/chicken.svg" alt="chicken" id="chicken">
+                    <p id="agent_about_pc">Рассказывать о банковских продуктах лично. (Друзья, коллеги, знакомые и др.)</p>
+                    <div class="container" id="con_agent">
+                        <div class="container" id="up_agent">
+                            <img src="photo/point.svg" alt="point" id="point_3" class="point">
+                            <p id="condition_agent_1">Доступны: <span>Агентские офферы</span></p>
+                        </div>
+                        <div class="container" id="down_agent">
+                            <img src="photo/red_point.svg" alt="point" id="point_4" class="point">
+                            <p id="condition_agent_2">Не доступны: <span>Блогерские офферы</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
@@ -50,9 +123,14 @@
             if (!isTextInput(e.target) && isTextInput(document.activeElement)) {
                 document.activeElement.blur();
             }
-         }, false);
+        }, false);
+
         let tg = window.Telegram.WebApp;
         tg.expand();
+
+        let BackButton = window.Telegram.WebApp.BackButton;
+        BackButton.show()
+        BackButton.onClick(() => window.history.back());
 
         let sing_in_main_menu = document.getElementById("main_btn_sing_in");
 
