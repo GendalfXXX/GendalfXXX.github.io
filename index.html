@@ -21,7 +21,7 @@
     </div>
     <div class="container" id="sing_in_con">
         <div class="container" id="sing_in_inner_con">
-            <img src="photo/palm_gif.gif" alt="palm" id="palm">
+            <img src="photo/palm.svg" alt="palm" id="palm">
             <h1 id="sing_in_text">Вход в кабинет</h1>
             <div class="container_inner" id="sing_in_inputs">
                 <form action="#" id="form_sing_in">
@@ -129,7 +129,7 @@
         tg.expand();
 
         let BackButton = window.Telegram.WebApp.BackButton;
-        BackButton.show()
+        BackButton.show();
         BackButton.onClick(() => window.history.back());
 
         let sing_in_main_menu = document.getElementById("main_btn_sing_in");
