@@ -8,11 +8,13 @@ body {
     min-width: 360px;
     overflow-x: hidden;
     background: #fff;
+    font-family: "SF Pro Display", sans-serif;
 }
 
 #main_con {
     min-width: 360px;
     max-height: 640px;
+    display: none;
 }
 
 #banner {
@@ -238,6 +240,8 @@ body {
 }
 
 #palm {
+    width: 40px;
+    height: 40px;
     padding: 149px 167.5px 23px;
 }
 
@@ -438,6 +442,605 @@ body {
     }
 }
 
+/* Окно выбора регистрации  Окно выбора регистрации */
+/* Окно выбора регистрации  Окно выбора регистрации */
+/* Окно выбора регистрации  Окно выбора регистрации */
 #sing_up_choice_con {
-    display: none;
+    min-width: 360px;
+    max-height: 650px;
+    text-align: center;
+}
+
+#sing_up_choice_con p {
+    font-size: 12px;
+}
+
+#sing_up_choice_con .container {
+    border-radius: 10px;
+}
+
+#sing_up_choice_con .point {
+    width: 13px;
+    height: 13px;
+}
+
+#sing_up_choice_con span {
+    font-weight: 500;
+}
+
+#sing_up_choice_con .btn:hover {
+    font-size: 15px;
+}
+
+#sing_up_pc {
+     display: none;
+}
+
+#sing_up_text {
+    width: 135px;
+    font-size: 20px;
+    padding: 61px 120px 5px;
+}
+
+#sing_up_about {
+    width: 204px;
+    padding: 0 85.5px 25px;
+    color: #999999;
+}
+
+#emoji_sing_up {
+    padding: 0 172.5px 25px;
+}
+
+#sing_up_bloger_con {
+    width: 315px;
+    height: 218px;
+    margin: 0 30px 31px;
+    background: #F0F2F9;
+}
+
+#bloger_about {
+    width: 285px;
+    padding: 15px 15px 11px;
+    color: #999999;
+}
+
+#sing_up_btn_bloger {
+    width: 285px;
+    height: 42px;
+    color: #fff;
+    background: #249AFF;
+    margin: 0 15px 15px;
+}
+
+#sing_up_bloger_about1 {
+    display: flex;
+    width: 285px;
+    height: 24px;
+    background: #fff;
+    margin: 0 15px 15px;
+}
+
+#danger_blog {
+    padding: 5.5px 0 5.5px 44px;
+}
+
+#condition_bloger {
+    width: 195px;
+    padding: 6px 0 6px 0;
+}
+
+#sing_up_bloger_about2 {
+    display: flex;
+    flex-direction: column;
+    width: 285px;
+    height: 53px;
+    background: #fff;
+    margin: 0 15px 15px;
+}
+
+#bloger_about1 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+#point_blog1 {
+    padding: 10px 0 0 42px;
+}
+
+#condition_bloger2 {
+    width: 197px;
+    padding-top: 10px;
+}
+
+#bloger_about2 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+
+#point_blog2 {
+    padding: 0 0 8px 46px;
+}
+
+#condition_bloger3 {
+    width: 189px;
+}
+
+#sing_up_agent_con {
+    width: 315px;
+    height: 175px;
+    margin: 0 30px 0;
+    background: #F0F2F9;
+}
+
+#agent_about {
+    width: 230px;
+    padding: 13px 42.5px 11px;
+    color: #999999;
+}
+
+#sing_up_btn_agent {
+    width: 283px;
+    height: 42px;
+    color: #249AFF;
+    background: #fff;
+    margin: 0 15px 15px;
+    border: 1px solid #249AFF;
+
+}
+
+#sing_up_agent_about {
+    width: 285px;
+    height: 53px;
+    background: #fff;
+    margin: 0 15px 0 13px;
+    display: flex;
+    flex-direction: column;
+}
+
+#agent_about1 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+#agent_about2 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+#point_agent1 {
+    padding: 9px 0 0 46px;
+}
+
+#condition_agent1 {
+    width: 189px;
+    padding-top: 9px;
+}
+
+#point_agent2 {
+    padding: 0 0 7px 33px;
+}
+
+#condition_agent2 {
+    width: 215px;
+    padding-bottom: 8px;
+}
+
+@media screen and (min-width: 414px) and (max-width: 420px) {
+    #sing_up_choice_con {
+        min-width: 414px;
+        max-height: 700px;
+    }
+
+    #sing_up_text {
+        width: 174px;
+        padding: 95px 120px 5px;
+    }
+
+    #sing_up_about {
+        width: 243px;
+        padding: 0 85.5px 25px;
+    }
+
+    #emoji_sing_up {
+        padding: 0 192px 25px;
+    }
+
+    #sing_up_bloger_con {
+        width: 354px;
+    }
+
+    #bloger_about {
+        width: 324px;
+    }
+
+    #sing_up_btn_bloger {
+        width: 324px;
+    }
+
+    #sing_up_bloger_about1 {
+        width: 324px;
+    }
+
+    #danger_blog {
+        padding: 5.5px 0 5.5px 63px;
+    }
+
+    #sing_up_bloger_about2 {
+        width: 324px;
+    }
+
+    #point_blog1 {
+        padding: 10px 0 0 61px;
+    }
+
+    #point_blog2 {
+        padding: 0 0 8px 65px;
+    }
+
+    #sing_up_agent_con {
+        width: 354px;
+    }
+
+    #agent_about {
+        width: 269px;
+    }
+
+    #sing_up_btn_agent {
+        width: 324px;
+    }
+
+    #sing_up_agent_about {
+        width: 324px;
+    }
+
+    #point_agent1 {
+        padding: 9px 0 0 68px;
+    }
+
+    #point_agent2 {
+        padding: 0 0 7px 52px;
+    }
+}
+
+
+@media screen and (min-width: 390px) and (max-width: 390px) {
+    #sing_up_choice_con {
+        min-width: 390px;
+        max-height: 820px;
+    }
+
+    #sing_up_text {
+        width: 150px;
+        padding: 149px 120px 5px;
+    }
+
+    #sing_up_about {
+        width: 219px;
+        padding: 0 85.5px 25px;
+    }
+
+    #emoji_sing_up {
+        padding: 0 180px 25px;
+    }
+
+    #sing_up_bloger_con {
+        width: 330px;
+    }
+
+    #bloger_about {
+        width: 300px;
+    }
+
+    #sing_up_btn_bloger {
+        width: 300px;
+        height: 42px;
+    }
+
+    #sing_up_bloger_about1 {
+        width: 300px;
+    }
+
+    #danger_blog {
+        padding: 5.5px 0 5.5px 51px;
+    }
+
+    #sing_up_bloger_about2 {
+        width: 300px;
+    }
+
+    #point_blog1 {
+        padding: 10px 0 0 49px;
+    }
+
+    #point_blog2 {
+        padding: 0 0 8px 53px;
+    }
+
+    #sing_up_agent_con {
+        width: 330px;
+    }
+
+    #agent_about {
+        width: 245px;
+    }
+
+    #sing_up_btn_agent {
+        width: 300px;
+    }
+
+    #sing_up_agent_about {
+        width: 300px;
+    }
+
+    #point_agent1 {
+        padding: 9px 0 0 53px;
+    }
+
+    #point_agent2 {
+        padding: 0 0 7px 40px;
+    }
+}
+
+
+@media screen and (min-width: 428px) and (max-width: 430px) {
+    #sing_up_choice_con {
+        min-width: 428px;
+        max-height: 900px;
+    }
+
+    #sing_up_text {
+        width: 188px;
+        padding: 190px 120px 5px;
+    }
+
+    #sing_up_about {
+        width: 257px;
+        padding: 0 85.5px 25px;
+    }
+
+    #emoji_sing_up {
+        padding: 0 199px 25px;
+    }
+
+    #sing_up_bloger_con {
+        width: 368px;
+    }
+
+    #bloger_about {
+        width: 338px;
+    }
+
+    #sing_up_btn_bloger {
+        width: 338px;
+    }
+
+    #sing_up_bloger_about1 {
+        width: 338px;
+    }
+
+    #danger_blog {
+        padding: 5.5px 0 5.5px 70px;
+    }
+
+    #sing_up_bloger_about2 {
+        width: 338px;
+    }
+
+    #point_blog1 {
+        padding: 10px 0 0 68px;
+    }
+
+    #point_blog2 {
+        padding: 0 0 8px 72px;
+    }
+
+    #sing_up_agent_con {
+        width: 368px;
+    }
+
+    #agent_about {
+        width: 283px;
+    }
+
+    #sing_up_btn_agent {
+        width: 338px;
+    }
+
+    #sing_up_agent_about {
+        width: 338px;
+    }
+
+    #point_agent1 {
+        padding: 9px 0 0 75px;
+    }
+
+    #point_agent2 {
+        padding: 0 0 7px 59px;
+    }
+}
+
+
+@media screen and (min-width: 392px) and (max-width: 392px) {
+    #sing_up_choice_con {
+        min-width: 392px;
+        max-height: 490px;
+    }
+
+    #sing_up_emoji {
+        display: none;
+    }
+
+    #sing_up_bloger_con {
+        display: none;
+    }
+
+    #sing_up_agent_con {
+        display: none;
+    }
+
+    #sing_up_text {
+        width: 152px;
+        padding: 29px 120px 5px;
+    }
+
+    #sing_up_about {
+        width: 221px;
+        padding: 0 85.5px 28px;
+    }
+
+    #sing_up_pc {
+        display: flex;
+        flex-direction: row;
+        width: 364px;
+        height: 367px;
+        background: #F0F2F9;
+        margin: 0 14px 23px;
+    }
+
+    #sing_up_pc .containers {
+        width: 50%;
+        height: 100%;
+    }
+
+    #btn_bloger {
+        width: 161px;
+        height: 42px;
+        background: #3F87F6;
+        color: #fff;
+        margin: 15px 0 15px;
+    }
+
+    #lion {
+        width: 30px;
+        height: 30px;
+        padding: 0 0 15px;
+    }
+
+    #bloger_about_pc {
+        width: 140px;
+        padding: 0 0 21px 21px;
+        color: #999999;
+    }
+
+    #bloger_conditions {
+        width: 161px;
+        height: 120px;
+        background: #fff;
+        margin-left: 10.5px;
+        text-align: left;
+    }
+
+    #danger_bloger_con {
+        display: flex;
+    }
+
+    #danger_bloger {
+        padding-top: 17px;
+        padding-left: 13px;
+        padding-right: 9px;
+    }
+
+    #condition_bloger_1 {
+        width: 97px;
+        padding-top: 11px;
+    }
+
+    #bloger_about_pc_con {
+        width: 135px;
+        height: 63px;
+        margin: 5px 13px 11px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #bloger_about_pc_con .container {
+        width: 100%;
+        height: 50%;
+        display: flex;
+    }
+
+    #point_1 {
+        padding-top: 7.5px;
+        padding-right: 9px;
+    }
+
+    #condition_bloger_2 {
+        width: 112px;
+        height: 28px;
+    }
+
+    #point_2 {
+        padding-top: 10px;
+        padding-right: 9px;
+    }
+
+    #condition_bloger_3 {
+        width: 112px;
+        height: 28px;
+        padding-top: 3px;
+    }
+
+    #btn_agent {
+        width: 159px;
+        height: 42px;
+        border: 1px solid #3F87F6;
+        color: #3F87F6;
+        margin: 15px 0;
+    }
+
+    #chicken {
+        padding-bottom: 15px;
+    }
+
+    #agent_about_pc {
+        width: 132px;
+        height: 56px;
+        padding: 0 0 21px 25px;
+        color: #999999;
+    }
+
+    #con_agent {
+        width: 161px;
+        height: 120px;
+        background: #fff;
+        margin-left: 11px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    #up_agent {
+        display: flex;
+        margin-bottom: 5px;
+    }
+
+    #point_3 {
+        padding: 16px 10px 0 13px
+    }
+
+    #condition_agent_1 {
+        width: 105px;
+        padding-top: 10px;
+    }
+
+    #down_agent {
+        display: flex;
+    }
+
+    #point_4 {
+        padding: 7.5px 10px 0 13px;
+    }
+
+    #condition_agent_2 {
+        width: 115px;
+    }
 }
