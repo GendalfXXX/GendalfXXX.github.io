@@ -3,7 +3,6 @@
     padding: 0;
 }
 
-/* Android + 6/7/8 IPHONE */
 body {
     min-width: 360px;
     overflow-x: hidden;
@@ -11,10 +10,30 @@ body {
     font-family: "SF Pro Display", sans-serif;
 }
 
+/* Android + 6/7/8 IPHONE */
 #main_con {
     min-width: 360px;
     max-height: 640px;
 }
+
+.back_con {
+    height: 38px;
+}
+
+.back {
+    display: flex;
+    padding: 10px 0 0 14px;
+}
+
+.backButton {
+    text-align: left;
+    border: 0;
+    font-size: 16px;
+    background: #fff;
+    color: #249AFF;
+    margin-left: 5px;
+}
+
 
 #banner {
     width: 281px;
@@ -146,7 +165,6 @@ body {
     }
 }
 
-
 @media screen and (min-width: 428px) and (max-width: 430px) {
     body {
         min-width: 428px;
@@ -241,7 +259,7 @@ body {
 #palm {
     width: 40px;
     height: 40px;
-    padding: 149px 167.5px 23px;
+    padding: 111px 167.5px 23px;
 }
 
 #sing_in_text {
@@ -319,7 +337,7 @@ body {
         min-height: 700px;
     }
     #palm {
-        padding: 183px 187px 23px;
+        padding: 145px 187px 23px;
     }
 
     #sing_in_text {
@@ -350,7 +368,7 @@ body {
     }
 
     #palm {
-        padding: 237px 175px 23px;
+        padding: 199px 175px 23px;
     }
 
     #sing_in_text {
@@ -381,7 +399,7 @@ body {
     }
 
     #palm {
-        padding: 278px 194px 23px;
+        padding: 240px 194px 23px;
     }
 
     #sing_in_text {
@@ -414,7 +432,7 @@ body {
     #palm {
         width: 33px;
         height: 33px;
-        padding: 93px 179.5px 19px;
+        padding: 55px 179.5px 19px;
     }
 
     #sing_in_text {
@@ -422,17 +440,17 @@ body {
     }
 
     #sing_in_inputs {
-        width: 343px;
-        height: 180px
-        margin: 0 24.5px 16px;
+        width: 332px;
+        height: 220px;
+        margin: 0 30px 16px;
     }
 
     #sing_in_inputs input {
-        width: 321px;
+        width: 310px;
     }
 
     #remember_password {
-        margin: 0 0 25px 206px;
+        margin: 0 0 25px 192px;
     }
 
     #btn_sing_in_up {
@@ -447,8 +465,11 @@ body {
 #sing_up_choice_con {
     min-width: 360px;
     max-height: 650px;
-    text-align: center;
     display: none;
+}
+
+#sing_up_choice_inner_con {
+    text-align: center;
 }
 
 #sing_up_choice_con p {
@@ -479,7 +500,7 @@ body {
 #sing_up_text {
     width: 135px;
     font-size: 20px;
-    padding: 61px 120px 5px;
+    padding: 23px 120px 5px;
 }
 
 #sing_up_about {
@@ -642,7 +663,7 @@ body {
 
     #sing_up_text {
         width: 174px;
-        padding: 95px 120px 5px;
+        padding: 57px 120px 5px;
     }
 
     #sing_up_about {
@@ -720,7 +741,7 @@ body {
 
     #sing_up_text {
         width: 150px;
-        padding: 149px 120px 5px;
+        padding: 111px 120px 5px;
     }
 
     #sing_up_about {
@@ -799,7 +820,7 @@ body {
 
     #sing_up_text {
         width: 188px;
-        padding: 190px 120px 5px;
+        padding: 152px 120px 5px;
     }
 
     #sing_up_about {
@@ -889,7 +910,7 @@ body {
 
     #sing_up_text {
         width: 152px;
-        padding: 29px 120px 5px;
+        padding: 0 120px 5px;
     }
 
     #sing_up_about {
@@ -901,7 +922,7 @@ body {
         display: flex;
         flex-direction: row;
         width: 364px;
-        height: 367px;
+        height: 340px;
         background: #F0F2F9;
         margin: 0 14px 23px;
     }
@@ -1042,5 +1063,477 @@ body {
 
     #condition_agent_2 {
         width: 115px;
+    }
+}
+
+/* Окошко заполнения блогера */
+/* Окошко заполнения блогера */
+/* Окошко заполнения блогера */
+#singUp_bloger_con {
+    min-width: 360px;
+    max-height: 650px;
+    display: none;
+}
+
+#singUp_bloger_inner {
+    text-align: center;
+}
+
+#singUp_bloger_inner p {
+    font-size: 12px;
+}
+
+#singUp_bloger_inner span {
+    font-weight: 600;
+}
+
+#singUp_bloger_text {
+    width: 130px;
+    font-size: 20px;
+    padding: 13px 122.5px 5px;
+}
+
+#singUp_bloger_about {
+    width: 130px;
+    padding: 0 122.5px 27px;
+    color: #999999;
+}
+
+#singUpInputsBLoger {
+    width: 315px;
+    margin: 27px 30px;
+}
+
+#singUpInputsBLoger_inner input {
+    width: 295px;
+    height: 50px;
+    padding-left: 20px;
+    border: 1px solid #DCDCDC;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+#loginSingUpBloger {
+    margin-bottom: 13px;
+}
+
+#password_about {
+    width: 243px;
+    padding: 5px 36px 13px;
+    color: #BFBFBF;
+}
+
+#connectSingUpBloger {
+    margin-bottom: 13px;
+}
+
+#channel_about {
+    width: 204px;
+    padding: 5px 55.5px 30px;
+    color: #BFBFBF;
+}
+
+.radioButton {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+#confirmSingUpBloger {
+    width: 20px;
+    height: 20px;
+    margin: 5px 12px 5px 0;
+}
+
+#confirm_about {
+    width: 273px;
+    font-size: 12px;
+    text-align: left;
+}
+
+#confirmBlogerBtn {
+    width: 100%;
+    color: #fff;
+    background: #3F87F6;
+}
+
+#confirmBlogerBtn:hover {
+    font-size: 15px;
+}
+
+
+@media screen and (min-width: 414px) and (max-width: 430px) {
+    #singUp_bloger_con {
+        min-width: 414px;
+        max-height: 700px;
+    }
+
+    #singUp_bloger_text {
+        padding: 51px 142px 5px;
+    }
+
+    #singUp_bloger_about {
+        padding: 0 142px 27px;
+    }
+
+    #singUpInputsBLoger {
+        width: 354px;
+        margin: 27px 30px;
+    }
+
+    #singUpInputsBLoger_inner input {
+        width: 332px;
+    }
+
+    #password_about {
+        width: 243px;
+        padding: 5px 55.5px 13px;
+    }
+
+    #channel_about {
+        width: 204px;
+        padding: 5px 75px 30px;
+    }
+
+    #confirm_about {
+        width: 312px;
+    }
+}
+
+
+@media screen and (min-width: 390px) and (max-width: 390px) {
+    #singUp_bloger_con {
+        min-width: 390px;
+        max-height: 820px;
+    }
+
+    #singUp_bloger_text {
+        padding: 105px 130px 5px;
+    }
+
+    #singUp_bloger_about {
+        padding: 0 130px 27px;
+    }
+
+    #singUpInputsBLoger {
+        width: 330px;
+        margin: 27px 30px;
+    }
+
+    #singUpInputsBLoger_inner input {
+        width: 308px;
+    }
+
+    #password_about {
+        width: 243px;
+        padding: 5px 43.5px 13px;
+    }
+
+    #channel_about {
+        width: 204px;
+        padding: 5px 64px 30px;
+    }
+
+    #confirm_about {
+        width: 288px;
+    }
+}
+
+
+@media screen and (min-width: 428px) and (max-width: 430px) {
+    #singUp_bloger_con {
+        min-width: 428px;
+        max-height: 900px;
+    }
+
+    #singUp_bloger_text {
+        padding: 146px 149px 5px;
+    }
+
+    #singUp_bloger_about {
+        padding: 0 149px 27px;
+    }
+
+    #singUpInputsBLoger {
+        width: 368px;
+        margin: 27px 30px;
+    }
+
+    #singUpInputsBLoger_inner input {
+        width: 346px;
+    }
+
+    #password_about {
+        width: 243px;
+        padding: 5px 62.5px 13px;
+    }
+
+    #channel_about {
+        width: 204px;
+        padding: 5px 82px 30px;
+    }
+
+    #confirm_about {
+        width: 326px;
+    }
+}
+
+
+@media screen and (min-width: 392px) and (max-width: 392px) {
+    #singUp_bloger_con {
+        min-width: 392px;
+        max-height: 700px;
+    }
+
+    #singUp_bloger_text {
+        padding: 13px 131px 5px;
+    }
+
+    #singUp_bloger_about {
+        padding: 0 131px 27px;
+    }
+
+    #singUpInputsBLoger {
+        width: 332px;
+        margin: 27px 30px;
+    }
+
+    #singUpInputsBLoger_inner input {
+        width: 310px;
+    }
+
+    #password_about {
+        width: 243px;
+        padding: 5px 44.5px 13px;
+    }
+
+    #channel_about {
+        width: 204px;
+        padding: 5px 64px 30px;
+    }
+
+    #confirm_about {
+        width: 300px;
+    }
+}
+
+
+
+#singUp_agent_con {
+    min-width: 360px;
+    max-height: 650px;
+    display: none;
+}
+
+#singUp_agent_inner {
+    text-align: center;
+}
+
+#singUp_agent_inner p {
+    font-size: 12px;
+}
+
+#singUp_agent_inner span {
+    font-weight: 600;
+}
+
+#singUp_agent_text {
+    width: 130px;
+    font-size: 20px;
+    padding: 13px 122.5px 5px;
+}
+
+#singUp_agent_about {
+    width: 130px;
+    padding: 0 122.5px 27px;
+    color: #999999;
+}
+
+#singUpInputsAgent {
+    width: 315px;
+    margin: 27px 30px;
+}
+
+#singUpInputsAgent_inner input {
+    width: 295px;
+    height: 50px;
+    padding-left: 20px;
+    border: 1px solid #DCDCDC;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+#loginSingUpAgent {
+    margin-bottom: 13px;
+}
+
+#password {
+    width: 243px;
+    padding: 5px 36px 13px;
+    color: #BFBFBF;
+}
+
+#connectSingUpAgent {
+    margin-bottom: 30px;
+}
+
+.radioButton {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+#confirmSingUpAgent {
+    width: 20px;
+    height: 20px;
+    margin: 5px 12px 5px 0;
+}
+
+#confirm {
+    width: 273px;
+    font-size: 12px;
+    text-align: left;
+}
+
+#confirmAgentBtn {
+    width: 100%;
+    color: #fff;
+    background: #3F87F6;
+}
+
+#confirmAgentBtn:hover {
+    font-size: 15px;
+}
+
+@media screen and (min-width: 414px) and (max-width: 430px) {
+    #singUp_agent_con {
+        min-width: 414px;
+        max-height: 700px;
+    }
+
+    #singUp_agent_text {
+        padding: 51px 142px 5px;
+    }
+
+    #singUp_agent_about {
+        padding: 0 142px 27px;
+    }
+
+    #singUpInputsAgent {
+        width: 354px;
+        margin: 27px 30px;
+    }
+
+    #singUpInputsAgent_inner input {
+        width: 332px;
+    }
+
+    #password {
+        width: 243px;
+        padding: 5px 55.5px 13px;
+    }
+
+    #confirm {
+        width: 312px;
+    }
+}
+
+
+@media screen and (min-width: 390px) and (max-width: 390px) {
+    #singUp_agent_con {
+        min-width: 390px;
+        max-height: 820px;
+    }
+
+    #singUp_agent_text {
+        padding: 105px 130px 5px;
+    }
+
+    #singUp_agent_about {
+        padding: 0 130px 27px;
+    }
+
+    #singUpInputsAgent {
+        width: 330px;
+        margin: 27px 30px;
+    }
+
+    #singUpInputsAgent_inner input {
+        width: 308px;
+    }
+
+    #password {
+        width: 243px;
+        padding: 5px 43.5px 13px;
+    }
+
+    #confirm {
+        width: 288px;
+    }
+}
+
+
+@media screen and (min-width: 428px) and (max-width: 430px) {
+    #singUp_agent_con {
+        min-width: 428px;
+        max-height: 900px;
+    }
+
+    #singUp_agent_text {
+        padding: 146px 149px 5px;
+    }
+
+    #singUp_agent_about {
+        padding: 0 149px 27px;
+    }
+
+    #singUpInputsAgent {
+        width: 368px;
+        margin: 27px 30px;
+    }
+
+    #singUpInputsAgent_inner input {
+        width: 346px;
+    }
+
+    #password {
+        width: 243px;
+        padding: 5px 62.5px 13px;
+    }
+
+    #confirm {
+        width: 326px;
+    }
+}
+
+
+@media screen and (min-width: 392px) and (max-width: 392px) {
+    #singUp_agent_con {
+        min-width: 392px;
+        max-height: 700px;
+    }
+
+    #singUp_agent_text {
+        padding: 13px 131px 5px;
+    }
+
+    #singUp_agent_about {
+        padding: 0 131px 27px;
+    }
+
+    #singUpInputsAgent {
+        width: 332px;
+        margin: 27px 30px;
+    }
+
+    #singUpInputsAgent_inner input {
+        width: 310px;
+    }
+
+    #password {
+        width: 243px;
+        padding: 5px 44.5px 13px;
+    }
+
+    #confirm {
+        width: 300px;
     }
 }
