@@ -31,8 +31,8 @@
             <img src="photo/palm.svg" alt="palm" id="palm">
             <h1 id="sing_in_text">Вход в кабинет</h1>
             <div class="container_inner" id="sing_in_inputs">
-                <input type="text" id="sing_in_login" placeholder="Логин">
-                <input type="password" id="sing_in_password" placeholder="Пароль">
+                <input type="text" id="sing_in_login" placeholder="Логин" required>
+                <input type="password" id="sing_in_password" placeholder="Пароль" required>
                 <button onclick="location.href='https://t.me/ivan_refli'" type="button" class="btn" id="remember_password">Восстановить пароль</button>
                 <button class="btn" id="btn_sing_in">Войти</button>
             </div>
@@ -137,11 +137,11 @@
             <img src="photo/lion_bloger.svg" alt="lion" id="lion_bloger">
             <div class="container" id="singUpInputsBLoger">
                 <div class="container" id="singUpInputsBLoger_inner">
-                    <input type="text" placeholder="Придумайте логин" id="loginSingUpBloger">
-                    <input type="text" placeholder="Придумайте пароль" id="passwordSingUpBloger">
+                    <input type="text" placeholder="Придумайте логин" id="loginSingUpBloger" required>
+                    <input type="text" placeholder="Придумайте пароль" id="passwordSingUpBloger" required>
                     <p id="password_about">Пароль должен содержать не менее 8 знаков</p>
-                    <input type="text" placeholder="Телеграм для связи" id="connectSingUpBloger">
-                    <input type="text" placeholder="Телеграм канал" id="channelSingUpBloger">
+                    <input type="text" placeholder="Телеграм для связи" id="connectSingUpBloger" required>
+                    <input type="text" placeholder="Телеграм канал" id="channelSingUpBloger" required>
                     <p id="channel_about">Ваш источник трафика. У тебя должно быть <span>минимум 500 подписчиков.</span></p>
                 </div>
                 <div class="radioButton">
@@ -178,52 +178,6 @@
             </div>
         </div>
     </div>
-    <script>
-        function isTextInput(node) {
-            return ['INPUT', 'TEXTAREA'].indexOf(node.nodeName) !== -1;
-        }
-
-        document.addEventListener('touchstart', function(e) {
-            if (!isTextInput(e.target) && isTextInput(document.activeElement)) {
-                document.activeElement.blur();
-            }
-        }, false);
-
-        let tg = window.Telegram.WebApp;
-        tg.expand();
-
-        let singInBtn = document.getElementById('main_btn_sing_in');
-        let singUpBtn = document.getElementById('main_btn_sing_up');
-
-        singInBtn.addEventListener('click', function () {
-            let mainWindow = document.getElementById('main_con');
-            let singInWindow = document.getElementById('sing_in_con');
-
-            mainWindow.style.display = 'none';
-            singInWindow.style.display = 'block';
-        });
-
-        singUpBtn.addEventListener('click', function () {
-            let mainWindow = document.getElementById('main_con');
-            let singUpWindow = document.getElementById('sing_up_choice_con');
-
-            mainWindow.style.display = 'none';
-            singUpWindow.style.display = 'block';
-        });
-
-        let backSingIn = document.getElementById('backSingIn');
-
-        backSingIn.addEventListener('click', function () {
-            let mainWindow = document.getElementById('main_con');
-            let singInWindow = document.getElementById('sing_in_con');
-
-            mainWindow.style.display = 'block';
-            singInWindow.style.display = 'none';
-        });
-
-
-
-
-    </script>
+    <script src="./app.js"></script>
 </body>
 </html>
