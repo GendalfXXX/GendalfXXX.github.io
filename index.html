@@ -11,7 +11,7 @@
 <body>
     <div class="container" id="main_con">
         <div class="container" id="main_inner_con">
-            <img src="photo/banner_png.png" alt="banner" id="banner">
+            <img src="photo/banner_svg2.svg" alt="banner" id="banner">
             <div class="container" id="logo_con">
                 <img src="photo/logo.svg" alt="logo" id="logo">
                 <p id="logo_text">Зарабатывай, рассказывая о банковских продуктах</p>
@@ -192,24 +192,38 @@
         let tg = window.Telegram.WebApp;
         tg.expand();
 
-        let sing_in_main_menu = document.getElementById("main_btn_sing_in");
+        let singInBtn = document.getElementById('main_btn_sing_in');
+        let singUpBtn = document.getElementById('main_btn_sing_up');
 
-        sing_in_main_menu.addEventListener("click", function () {
-            document.getElementById("main_con").style.display = 'none';
-            document.getElementById("sing_in_con").style.display = 'block';
+        singInBtn.addEventListener('click', function () {
+            let mainWindow = document.getElementById('main_con');
+            let singInWindow = document.getElementById('sing_in_con');
+
+            mainWindow.style.display = 'none';
+            singInWindow.style.display = 'block';
         });
 
-        let sing_in = document.getElementById("btn_sing_in");
+        singUpBtn.addEventListener('click', function () {
+            let mainWindow = document.getElementById('main_con');
+            let singUpWindow = document.getElementById('sing_up_choice_con');
 
-        sing_in.addEventListener("click", function () {
-            let login = document.getElementById("sing_in_login").value;
-            let password = document.getElementById("sing_in_password").value;
-            let data = {
-                login: login,
-                password: password,
-            }
-            tg.sendData(JSON.stringify(data))
+            mainWindow.style.display = 'none';
+            singUpWindow.style.display = 'block';
         });
+
+        let backSingIn = document.getElementById('backSingIn');
+
+        backSingIn.addEventListener('click', function () {
+            let mainWindow = document.getElementById('main_con');
+            let singInWindow = document.getElementById('sing_in_con');
+
+            mainWindow.style.display = 'block';
+            singInWindow.style.display = 'none';
+        });
+
+
+
+
     </script>
 </body>
 </html>
