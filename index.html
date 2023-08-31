@@ -6,11 +6,12 @@
     <title>TEST WEB APP</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </head>
 <body>
     <div class="container" id="main_con">
         <div class="container" id="main_inner_con">
-            <img src="photo/banner.svg" alt="banner" id="banner">
+            <img src="photo/banner_png.png" alt="banner" id="banner">
             <div class="container" id="logo_con">
                 <img src="photo/logo.svg" alt="logo" id="logo">
                 <p id="logo_text">Зарабатывай, рассказывая о банковских продуктах</p>
@@ -20,14 +21,18 @@
         </div>
     </div>
     <div class="container" id="sing_in_con">
+        <div class="container" id="back_con">
+            <div class="container" id="back">
+                <img src="photo/back_arrow.svg" alt="backArrow" class="backArrow">
+                <button class="backButton" id="backSingIn">Назад</button>
+            </div>
+        </div>
         <div class="container" id="sing_in_inner_con">
             <img src="photo/palm.svg" alt="palm" id="palm">
             <h1 id="sing_in_text">Вход в кабинет</h1>
             <div class="container_inner" id="sing_in_inputs">
-                <form action="#" id="form_sing_in">
-                    <input type="text" id="sing_in_login" placeholder="Логин">
-                    <input type="password" id="sing_in_password" placeholder="Пароль">
-                </form>
+                <input type="text" id="sing_in_login" placeholder="Логин">
+                <input type="password" id="sing_in_password" placeholder="Пароль">
                 <button onclick="location.href='https://t.me/ivan_refli'" type="button" class="btn" id="remember_password">Восстановить пароль</button>
                 <button class="btn" id="btn_sing_in">Войти</button>
             </div>
@@ -35,6 +40,12 @@
         </div>
     </div>
     <div class="container" id="sing_up_choice_con">
+        <div class="back_con">
+            <div class="back">
+                <img src="photo/back_arrow.svg" alt="backArrow" class="backArrow">
+                <button class="backButton" id="backSingUp">Назад</button>
+            </div>
+        </div>
         <div class="container" id="sing_up_choice_inner_con">
             <h1 id="sing_up_text">Регистрация</h1>
             <p id="sing_up_about">Выбери, что тебе больше подходит</p>
@@ -113,7 +124,60 @@
             </div>
         </div>
     </div>
-    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <div class="container" id="singUp_bloger_con">
+        <div class="back_con">
+            <div class="back">
+                <img src="photo/back_arrow.svg" alt="backArrow" class="backArrow">
+                <button class="backButton" id="backSingUpBloger">Назад</button>
+            </div>
+        </div>
+        <div class="container" id="singUp_bloger_inner">
+            <h1 id="singUp_bloger_text">Регистрация</h1>
+            <p id="singUp_bloger_about">Ваш выбор - “Блогер”</p>
+            <img src="photo/lion_bloger.svg" alt="lion" id="lion_bloger">
+            <div class="container" id="singUpInputsBLoger">
+                <div class="container" id="singUpInputsBLoger_inner">
+                    <input type="text" placeholder="Придумайте логин" id="loginSingUpBloger">
+                    <input type="text" placeholder="Придумайте пароль" id="passwordSingUpBloger">
+                    <p id="password_about">Пароль должен содержать не менее 8 знаков</p>
+                    <input type="text" placeholder="Телеграм для связи" id="connectSingUpBloger">
+                    <input type="text" placeholder="Телеграм канал" id="channelSingUpBloger">
+                    <p id="channel_about">Ваш источник трафика. У тебя должно быть <span>минимум 500 подписчиков.</span></p>
+                </div>
+                <div class="radioButton">
+                    <input name="confirm" type="radio" value="off" id="confirmSingUpBloger">
+                    <p id="confirm_about">Я принимаю соглашение на обработку персональных данных и оферту.</p>
+                </div>
+                <button class="btn" id="confirmBlogerBtn">Подтвердить</button>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="singUp_agent_con">
+        <div class="back_con">
+            <div class="back">
+                <img src="photo/back_arrow.svg" alt="backArrow" class="backArrow">
+                <button class="backButton" id="backSingUpAgent">Назад</button>
+            </div>
+        </div>
+        <div class="container" id="singUp_agent_inner">
+            <h1 id="singUp_agent_text">Регистрация</h1>
+            <p id="singUp_agent_about">Ваш выбор - “Агент”</p>
+            <img src="photo/chicken.svg" alt="chicken" id="chicken_agent">
+            <div class="container" id="singUpInputsAgent">
+                <div class="container" id="singUpInputsAgent_inner">
+                    <input type="text" placeholder="Придумайте логин" id="loginSingUpAgent">
+                    <input type="text" placeholder="Придумайте пароль" id="passwordSingUpAgent">
+                    <p id="password">Пароль должен содержать не менее 8 знаков</p>
+                    <input type="text" placeholder="Телеграм для связи" id="connectSingUpAgent">
+                </div>
+                <div class="radioButton">
+                    <input name="confirm" type="radio" value="off" id="confirmSingUpAgent">
+                    <p id="confirm">Я принимаю соглашение на обработку персональных данных и оферту.</p>
+                </div>
+                <button class="btn" id="confirmAgentBtn">Подтвердить</button>
+            </div>
+        </div>
+    </div>
     <script>
         function isTextInput(node) {
             return ['INPUT', 'TEXTAREA'].indexOf(node.nodeName) !== -1;
@@ -127,10 +191,6 @@
 
         let tg = window.Telegram.WebApp;
         tg.expand();
-
-        let BackButton = window.Telegram.WebApp.BackButton;
-        BackButton.show();
-        BackButton.onClick(() => window.history.back());
 
         let sing_in_main_menu = document.getElementById("main_btn_sing_in");
 
