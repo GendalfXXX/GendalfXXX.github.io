@@ -1539,3 +1539,24 @@ body {
         width: 300px;
     }
 }
+
+
+
+/* let sing_in_main_menu = document.getElementById("main_btn_sing_in");
+
+        sing_in_main_menu.addEventListener("click", function () {
+            document.getElementById("main_con").style.display = 'none';
+            document.getElementById("sing_in_con").style.display = 'block';
+        });
+
+        let sing_in = document.getElementById("btn_sing_in");
+
+        sing_in.addEventListener("click", function () {
+            let login = document.getElementById("sing_in_login").value;
+            let password = document.getElementById("sing_in_password").value;
+            let data = {
+                login: login,
+                password: password,
+            }
+            tg.sendData(JSON.stringify(data))
+        }); */
