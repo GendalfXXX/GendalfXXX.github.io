@@ -1173,7 +1173,7 @@ body {
 @media screen and (min-width: 414px) and (max-width: 430px) {
     #singUp_bloger_con {
         min-width: 414px;
-        max-height: 1050px;
+        min-height: 1050px;
     }
 
     #singUp_bloger_text {
