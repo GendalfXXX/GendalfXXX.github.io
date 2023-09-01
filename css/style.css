@@ -1075,6 +1075,11 @@ body {
     display: none;
 }
 
+#lion_bloger {
+    weight: 30px;
+    height: 30px;
+}
+
 #singUp_bloger_inner {
     text-align: center;
 }
