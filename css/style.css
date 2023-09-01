@@ -1080,7 +1080,7 @@ body {
 /* Окошко заполнения блогера */
 #singUp_bloger_con {
     min-width: 360px;
-    max-height: 650px;
+    min-height: 1000px;
     display: none;
 }
 
@@ -1173,7 +1173,7 @@ body {
 @media screen and (min-width: 414px) and (max-width: 430px) {
     #singUp_bloger_con {
         min-width: 414px;
-        max-height: 700px;
+        max-height: 1050px;
     }
 
     #singUp_bloger_text {
@@ -1357,6 +1357,11 @@ body {
     width: 130px;
     padding: 0 122.5px 27px;
     color: #999999;
+}
+
+#chicken_agent {
+    width: 30px;
+    height: 30px;
 }
 
 #singUpInputsAgent {
