@@ -10,6 +10,11 @@ body {
     font-family: "SF Pro Display", sans-serif;
 }
 
+.lion {
+    weight: 30px;
+    height: 30px;
+}
+
 /* Android + 6/7/8 IPHONE */
 #main_con {
     min-width: 360px;
@@ -510,6 +515,8 @@ body {
 }
 
 #emoji_sing_up {
+    width: 30px;
+    height: 30px;
     padding: 0 172.5px 25px;
 }
 
@@ -1019,6 +1026,8 @@ body {
     }
 
     #chicken {
+        width: 30px;
+        height: 30px;
         padding-bottom: 15px;
     }
 
@@ -1073,11 +1082,6 @@ body {
     min-width: 360px;
     max-height: 650px;
     display: none;
-}
-
-#lion_bloger {
-    weight: 30px;
-    height: 30px;
 }
 
 #singUp_bloger_inner {
