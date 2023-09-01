@@ -15,11 +15,6 @@ body {
     height: 30px;
 }
 
-/* Android + 6/7/8 IPHONE */
-#main_con {
-    min-width: 360px;
-    max-height: 640px;
-}
 
 .back_con {
     height: 38px;
@@ -47,11 +42,15 @@ body {
     margin-left: 5px;
 }
 
+#main_con {
+    min-width: 360px;
+    max-height: 640px;
+}
 
 #banner {
     width: 281px;
     height: 330px;
-    padding: 34px 47px 0;
+    padding: 0 47px 0;
 }
 
 #logo_con {
@@ -518,7 +517,7 @@ body {
     width: 135px;
     font-size: 20px;
     font-weight: 500;
-    padding: 80px 120px 5px;
+    padding: 50px 120px 5px;
 }
 
 #sing_up_about {
@@ -1112,7 +1111,7 @@ body {
 #singUp_bloger_text {
     width: 130px;
     font-size: 20px;
-    padding: 13px 122.5px 5px;
+    padding: 50px 122.5px 5px;
     font-weight: 500;
 }
 
@@ -1369,7 +1368,7 @@ body {
 #singUp_agent_text {
     width: 130px;
     font-size: 20px;
-    padding: 13px 122.5px 5px;
+    padding: 50px 122.5px 5px;
     font-weight: 500;
 }
 
