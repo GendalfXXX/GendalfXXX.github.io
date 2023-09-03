@@ -15,7 +15,6 @@ body {
     height: 30px;
 }
 
-
 .back_con {
     height: 38px;
     width: 100%;
@@ -109,19 +108,21 @@ body {
     font-size: 15px;
 }
 
-@media screen and (min-width: 414px) and (max-width: 420px) {
+@media screen and (min-width: 410px) and (max-width: 420px) {
     body {
         min-width: 414px;
         overflow-x: hidden;
     }
+
     #main_con {
         min-width: 414px;
         min-height: 650px;
     }
+
     #banner {
         width: 322px;
         height: 330px;
-        padding: 58px 46px 0;
+        padding: 44px 46px 0;
     }
 
     #logo_con {
@@ -929,7 +930,7 @@ body {
 
     #sing_up_text {
         width: 152px;
-        padding: 0 120px 5px;
+        padding: 50px 120px 5px;
     }
 
     #sing_up_about {
@@ -1225,12 +1226,12 @@ body {
 @media screen and (min-width: 390px) and (max-width: 390px) {
     #singUp_bloger_con {
         min-width: 390px;
-        max-height: 820px;
+        height: 820px;
     }
 
     #singUp_bloger_inner {
         width: 100%;
-        height: 800px;
+        height: 1200px;
     }
 
     #singUp_bloger_text {
@@ -1312,7 +1313,7 @@ body {
     }
 
     #singUp_bloger_text {
-        padding: 58px 131px 5px;
+        padding: 50px 131px 5px;
     }
 
     #singUp_bloger_about {
@@ -1475,12 +1476,12 @@ body {
 @media screen and (min-width: 390px) and (max-width: 390px) {
     #singUp_agent_con {
         min-width: 390px;
-        max-height: 820px;
+        height: 1000px;
     }
 
     #singUp_agent_inner {
         width: 100%;
-        height: 800px;
+        height: 1200px;
     }
 
     #singUp_agent_text {
@@ -1552,7 +1553,7 @@ body {
     }
 
     #singUp_agent_text {
-        padding: 13px 131px 5px;
+        padding: 50px 131px 5px;
     }
 
     #singUp_agent_about {
