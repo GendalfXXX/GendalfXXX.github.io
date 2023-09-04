@@ -1035,6 +1035,7 @@ body {
         height: 42px;
         border: 1px solid #3F87F6;
         color: #3F87F6;
+        background: #fff;
         margin: 15px 0;
     }
 
@@ -1309,7 +1310,7 @@ body {
 @media screen and (min-width: 392px) and (max-width: 392px) {
     #singUp_bloger_con {
         min-width: 392px;
-        min-height: 700px;
+        height: 650px;
     }
 
     #singUp_bloger_text {
@@ -1549,7 +1550,7 @@ body {
 @media screen and (min-width: 392px) and (max-width: 392px) {
     #singUp_agent_con {
         min-width: 392px;
-        max-height: 700px;
+        height: 650px;
     }
 
     #singUp_agent_text {
